@@ -1,0 +1,199 @@
+.wrapper{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+}
+.main_bg{
+	position: relative;
+	display: block;
+	width: 940px;
+	height: 450px;
+	padding-top: 7%;
+  padding-left: 10.5%;
+}
+.col_red{
+	position: relative;
+	float: left;
+	background: url(../img/bg_red.png);
+	width: 42.5%;
+	height: 100%;
+	border-radius: 20px 0 0 20px;
+}
+.white_square{
+	position: relative;
+	width: 67%;
+	height: 59.5%;
+	background:#fff;
+	border-radius: 6px;
+	text-align: center;
+	margin-top: 23%;
+	margin-left: 16%;
+}	
+.col_white{
+	position: relative;
+	float: right;
+	width: 57.5%;
+	height: 100%;
+	background: #efeeee;
+	border-radius: 0 20px 20px 0;
+}
+.wreath{
+	position: absolute;
+	left: 85%;
+	top: -8%;
+}
+.month{
+	font: 16px/14px 'GothamProBla',  sans-serif;
+	text-transform: uppercase;
+	color: #575b66;
+	padding-top: 11%;
+}
+.tape{
+	
+	margin-left: -2%;
+	margin-top: 13%;
+}
+.price{
+	font: 52px 'GothamProLig', sans-serif;
+	color: #9aaf4e;
+	margin-top: 13%;
+}
+.old_price{
+	font: 14px 'GothamProReg', sans-serif;
+	color: #bec0c6;
+	margin-top: -16%;
+}
+.gift{
+	position: relative;
+	font: 16px 'GothamProMed', sans-serif;
+	color: #997a2c;
+	top: -23%;
+}
+.basis{
+	width: 77%;
+	height: 70%;
+	margin-left: 11.5%;
+	margin-top: 10.5%;
+}
+.top-text{
+	font: 16px 'GothamProReg', sans-serif;
+	color: #8f9298;
+	line-height: 1.4;
+}
+b{
+	color: #575b66;
+}
+.process{
+	font: 14px 'GothamProReg', sans-serif;
+	text-transform: uppercase;
+	color: #c2c4cc;
+	padding-top: 4%;
+    
+}
+#payment{
+	position: relative;
+  float: left;
+  left: 39%;
+	margin-top: -9%;
+}
+.icons{
+	background: url(../img/sprite_payment.png) no-repeat;
+	display: inline-block;
+	
+	height: 26px;
+	margin-right: 10px;
+	
+}
+.Pul{
+	width: 27px;
+	background-position: 8px 3px;
+}
+.Pul:hover{
+	background-position: 4px -26px;
+}
+.Visa{
+	width: 44px;
+	background-position: -34px 2px;
+}
+.Visa:hover{
+	background-position: -30px -26px;
+}
+.Master_Card{
+	width: 44px;
+	background-position: -93px 3px;
+}
+.Master_Card:hover{
+	background-position: -88px -26px;
+}
+.bottom-text{
+	font: 16px 'GothamProReg', sans-serif;
+	color: #8f9298;
+	margin-top: 13%;
+	margin-bottom: 4%;
+	line-height: 1.46;
+  font-weight: 400;
+}
+.link{
+	margin-top: 15%;
+}
+.text-link{
+	font: 16px 'GothamProReg', sans-serif;
+	color: #fff;
+	background: #aac65a;
+	padding: 	18px 48px;
+	border-radius: 35px	;
+	-moz-border-radius: 35px; /* Для Firefox 3 */
+  -webkit-border-radius: 35px;
+	text-decoration: none;
+	border: none;
+}
+.text-link:hover{
+	background: #aee21a;
+	color: #505d2b;
+}
+.text-link2{
+	font: 14px 'GothamProMed', sans-serif;
+	color: #997a2c;
+	background: #fac746;
+	padding: 	15px 37px;
+	-moz-border-radius: 40px; /* Для Firefox 3 */
+  -webkit-border-radius: 40px;
+	border-radius: 40px	;
+	text-decoration: none;
+	border: none;
+}
+ a.text-link1{  
+ 	font: 16px 'GothamProReg', sans-serif;
+	color: #4593d6;
+	text-decoration: none;
+}
+
+.text-link1:hover{
+	color: #ec0b4b	;
+	text-decoration: underline;
+}
+link{
+	color: #dae7f5;
+}
+.text-link2:hover{
+	background: #bd983b;
+	color: #505d2b;
+}
+.text-link1 a:visited{
+	color: #cecece;
+}
+.button{
+	position: relative;	
+	float: right;
+	margin-top: -65%;
+  right: 4%;
+  opacity: 0.5;
+	filter: alpha(opacity=);
+  cursor: pointer;
+}
+.button:hover{
+	color: #d9d9da;
+	opacity: 2;
+	filter: alpha(opacity=);
+}
+
